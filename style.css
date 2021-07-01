@@ -100,6 +100,7 @@ ul .btn-login a{
     width: 700px;
     padding-bottom: 30px;
     border-bottom: 2px solid gray;
+    margin-top:30px;
 }
 .img {
     display: flex;
