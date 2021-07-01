@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin: 0px 80px 0px 80px;
+    line-height: 80px;
+    width: 1744px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+.menu .logo{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    height: 45px;
+    line-height: 45px;
+    width: 120px;
+    text-align: center;
+}
+.menu .logo:hover{
+    color: #FF6701;
+}
+.menu .main-menu ul{
+    display: flex;
+}
+.menu .main-menu ul li{
+    list-style: none;
+}
+.menu .main-menu ul li a{
+    text-decoration: none;
+    margin-right: 50px;
+}
+ul .option-menu{
+    display: flex;
+    margin-left: 400px;
+}
+ul .option-menu a{
+    color: black;
+    padding-right: 30px;
+}
+ul .option-menu a:hover{
+    color: #FF6701;
+}
+ul .btn-login{
+    margin-right: 230px;
+}
+ul .btn-login a{
+    color: black;
+}
+.btn-login i{
+    margin-right: 10px;
+    font-size: 30px;
+    
+}
+.btn-login span:hover{
+    color: grey;
+}
+.icon-cart a{
+    color: black;
+}
+.icon-cart i{
+    font-size: 35px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+}
+.title {
+    font-weight:bolder; 
+    font-size: 30px;
+    color: orangered; 
+    margin:200px 0px 30px 200px;
+    width: 700px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+   
+}
+#product {
+    margin: 0px 0px 30px 200px;
+}
+.product-cart {
+    display: flex;
+    flex-direction: column;
+}
+.product-cart ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid gray;
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.img .product-img {
+    width: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.img .product-title {
+    margin-top: 20px;
+}
+.img .product-cost {
+    font-weight: lighter;
+    color: rgb(54, 54, 54);
+    margin-top: 30px;
+}
+.cart {
+    display: flex;
+    justify-content: none;
+    border: 1px solid black;
+    height: 40px;
+}
+.cart input {
+    border:none;
+    width: 30px; 
+    background-color: whitesmoke;
+    text-align: center;
+}
+#delete {
+    border: none;
+    height: 40px;
+    font-size: 30px;
+    background-color: white;
+    color: rgb(94, 94, 94);
+}
+#comment {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    color: rgb(235, 32, 32);
+    margin: 0px 0px 30px 200px;
+}
+.summary table {
+    margin: 0px 0px 30px 200px;
+    border-bottom: 1px solid gray;
+    width: 400px;
+}
+.summary td {
+    padding-bottom: 20px;
+}
+#checkout {
+    width: 400px;
+    height: 50px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(218, 91, 45, 0.959);
+    color: white;
+    border:none;
+    margin: 0px 0px 30px 200px;
+}
+.noproduct { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    width: 1200px;
+    height: 300px;
+    margin-left: 150px;
+}
+.footer{
+    background-color: black;
+    height: 350px;
+    margin: 0px 80px 80px 80px;
+}
+.footer #footer-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer #footer-service ul{
+    margin-top: 50px;
+}
+.footer #footer-service ul li{
+    list-style: none;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.footer #footer-service ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer #footer-service #footer-service1{
+    color: white;
+    margin-top: 100px;
+}
+.footer #footer-service #footer-service1 input{
+    height: 40px;
+    width: 250px;
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+}
+.footer #footer-service #footer-service1 input::placeholder{
+    color: white;
+    padding-left: 30px;
+}
+.footer #footer-service #footer-service1 button{
+    display: flex;
+    margin-top: 5px;
+    border: 1px solid #FF6701;
+    font-size: 15px;
+}
+.footer #footer-service #footer-service1 button a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 255px;
+    background-color: #FF6701;
+}
+.footer #footer-service #footer-service1 button a:hover{
+    background-color: #FFC288;
+}
+.social{
+    position: fixed;
+    right: 30px;
+    top: 150px;
+}
+.social ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.social ul li a{
+    text-decoration: none;
+    color: black;
+}
+.chat{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 550;
+}
+.chat a{
+    text-decoration: none;
+    color: white;
+    
+}

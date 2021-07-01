@@ -1,0 +1,13 @@
+{
+    "product":
+    [
+      { "id": 1, "img": "../image/all1.webp", "imgHover": "../image/all1.2.webp", "title": "I'm a product", "price-old": "", "price": "25.00", "currency": "$", "cart":1 , "quantity": 30},
+      { "id": 1, "img": "../image/all2.webp", "imgHover": "../image/all2.2.webp", "title": "I'm a product", "price-old": "", "price": "25", "currency": "$","cart":0 , "quantity": 21},
+      { "id": 1, "img": "../image/all3.webp", "imgHover": "../image/all3.2.webp", "title": "I'm a product", "price-old": "", "price": "25", "currency": "$","cart":0 , "quantity": 21},
+      { "id": 1, "img": "../image/all4.webp", "imgHover": "../image/all4.2.webp", "title": "I'm a product", "price-old": "", "price": "25.00", "currency": "$","cart":1 , "quantity": 21},
+      { "id": 1, "img": "../image/men1.webp", "imgHover": "../image/men1.2.webp", "title": "I'm a product", "price-old": "", "price": "25", "currency": "$","cart":0 , "quantity": 21},
+      { "id": 1, "img": "../image/men2.webp", "imgHover": "../image/men2.2.webp", "title": "I'm a product", "price-old": "", "price": "25", "currency": "$","cart":0 , "quantity": 21},
+      { "id": 1, "img": "../image/men3.webp", "imgHover": "../image/men3.2.webp", "title": "I'm a product", "price-old": "", "price": "25", "currency": "$","cart":0 , "quantity": 21},
+      { "id": 1, "img": "../image/men4.webp", "imgHover": "../image/men4.2.webp", "title": "I'm a product", "price-old": "", "price": "25", "currency": "$","cart":0 , "quantity": 21}
+    ]
+}
